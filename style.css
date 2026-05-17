@@ -110,3 +110,13 @@ footer {
   color: #9ca3af;
   border-top: 1px solid #e5e7eb;
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  ul {
+    margin-top: 1rem;
+  }
+}
