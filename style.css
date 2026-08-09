@@ -94,7 +94,9 @@ section h2 {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   padding: 1.5rem;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
   display: flex;
   flex-direction: column;
 }
@@ -145,7 +147,9 @@ section h2 {
   padding: 0.5rem 1rem;
   border: 1px solid #e5e7eb;
   border-radius: 6px;
-  transition: background 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
 }
 
 .contact-links a:hover {
